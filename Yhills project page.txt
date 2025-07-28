@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Marketing Strategy for Blog</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9fafb;
+      color: #111827;
+    }
+
+    header {
+      background-color: #3b82f6;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 2rem;
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 1rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      padding: 1.5rem;
+    }
+
+    .card h2 {
+      font-size: 1.25rem;
+      color: #2563eb;
+    }
+
+    .card p {
+      margin-top: 0.5rem;
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      background-color: #2563eb;
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border-radius: 0.5rem;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Comprehensive Digital Marketing Strategy for Your Blog</h1>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Google Ads Search Campaign</h2>
+      <p>
+        Targeting productivity and personal growth enthusiasts using search terms like "best productivity blogs". Single ad group with responsive ads to drive high-intent traffic.
+      </p>
+      <p><strong>Budget:</strong> ₹500/day</p>
+      <p><strong>Target:</strong> Ages 18–45, India</p>
+      <a href="#" class="btn">View Sample Ad</a>
+    </section>
+
+    <section class="card">
+      <h2>Email Marketing Campaign</h2>
+      <p>
+        Weekly newsletters and automated sequences to engage readers, nurture leads, and reduce churn. Powered by Mailchimp or ConvertKit.
+      </p>
+      <p><strong>Segments:</strong> New, Engaged, Inactive Subscribers</p>
+      <p><strong>Frequency:</strong> Weekly + Post Alerts</p>
+      <a href="#" class="btn">Sample Email Content</a>
+    </section>
+
+    <section class="card">
+      <h2>Facebook Ads Campaign</h2>
+      <p>
+        Target users on Facebook using interests in self-help, productivity, and blogging. Use engaging single-image ads and call-to-actions.
+      </p>
+      <p><strong>Budget:</strong> ₹300/day</p>
+      <p><strong>KPI:</strong> CTR, Reach, Engagement</p>
+      <a href="#" class="btn">Preview Ad</a>
+    </section>
+
+    <section class="card">
+      <h2>Lead Generation Landing Page</h2>
+      <p>
+        A focused Mailchimp landing page offering a free PDF in exchange for emails. Integrated with onboarding email series for conversion.
+      </p>
+      <p><strong>Headline:</strong> "Get Productivity Tips in Your Inbox"</p>
+      <p><strong>Incentive:</strong> Free PDF Download</p>
+      <a href="#" class="btn">View Landing Page</a>
+    </section>
+  </main>
+</body>
+
+</html>
